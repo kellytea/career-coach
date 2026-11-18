@@ -15,6 +15,7 @@ dependencies = [
     "pydantic>=2.14.3",
     "pymupdf==2.1.0",
     "rdflib>=7.6.0",
+    "streamlit>=1.67.0",
 ]
 
 [project.scripts]
@@ -26,6 +27,7 @@ ner = [
 ]
 
 [tool.uv]
+package = false
 link-mode = "copy"
 
 [tool.uv.build-backend]
