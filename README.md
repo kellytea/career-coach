@@ -1,5 +1,12 @@
 # CareerCoach UI
 
+> **Use the UI branch:** these instructions and the UI are saved on
+> [`ui/resume-home-workspace`](https://github.com/kellytea/career-coach/tree/ui/resume-home-workspace).
+> The default `main` README will stay the same until this branch is merged.
+
+**To open the UI locally, choose either Docker or Python below. Both start a
+server, then you open [http://localhost:8501](http://localhost:8501) in your browser.**
+
 This branch adds the tested browser UI to the team repository. The
 **`ui/resume-home-workspace` branch** contains the home page, PDF upload, and
 matching workspace shown in the demo. Anyone can view or download
@@ -25,9 +32,18 @@ cd career-coach
 Alternatively, [download the UI branch as a ZIP](https://github.com/kellytea/career-coach/archive/refs/heads/ui/resume-home-workspace.zip),
 unzip it, and open a terminal in the extracted folder.
 
-## Start the UI with Docker
+If you already cloned this team repository, open a terminal in that folder and
+switch to the saved UI branch instead:
 
-With Docker Desktop installed and running:
+```sh
+git fetch origin
+git switch ui/resume-home-workspace
+```
+
+## Option A: Docker → localhost:8501
+
+Install and start Docker Desktop. From the project folder containing
+`compose.ui.yaml`, run:
 
 ```sh
 docker compose -f compose.ui.yaml up --build -d
@@ -37,13 +53,22 @@ Open **[http://localhost:8501](http://localhost:8501)** in your browser. The fir
 build installs the project dependencies. This separate UI configuration uses CPU
 PyTorch and publishes the app only on your local computer.
 
+The home page opens at `/`; the matching screen is
+[http://localhost:8501/workspace](http://localhost:8501/workspace).
+Check startup or inspect an error with:
+
+```sh
+docker compose -f compose.ui.yaml ps
+docker compose -f compose.ui.yaml logs ui
+```
+
 To stop the UI:
 
 ```sh
 docker compose -f compose.ui.yaml down
 ```
 
-## Start the UI without Docker
+## Option B: Python → localhost:8501 (Docker not needed)
 
 Docker is optional. With **Python 3.13+ and uv** installed, run:
 
@@ -56,6 +81,16 @@ Then open **[http://localhost:8501](http://localhost:8501)**. If the project's
 dependencies are already installed in your active Python environment, you can
 instead run `python ui_server.py`. Keep that terminal open while using the UI;
 press Ctrl+C to stop it.
+
+### If localhost does not open
+
+- Wait for the Docker container to be running, or for the Python terminal to
+  print `CareerCoach is running at http://127.0.0.1:8501`.
+- Keep Docker/the Python server running while using the page. Opening the GitHub
+  link or an HTML file by itself does not start the Python matching server.
+- If port 8501 is already occupied, stop the other UI instance. For Python you
+  can instead run `uv run python ui_server.py --port 8503`, then open
+  [http://localhost:8503](http://localhost:8503).
 
 ## What to try
 

@@ -15,6 +15,11 @@ source checkout, consistent with the team’s `package = false` setting.
 The main [README](README.md) contains quick-start instructions and the integration
 notes, followed by the existing extraction documentation.
 
+**Start the server with either method below, then open
+[http://localhost:8501](http://localhost:8501).** This guide lives on
+[`ui/resume-home-workspace`](https://github.com/kellytea/career-coach/tree/ui/resume-home-workspace);
+the default `main` page retains its existing README until the branch is merged.
+
 ## Run in Docker
 
 Use the **`ui/resume-home-workspace` branch**, with Docker Desktop running:
@@ -35,7 +40,9 @@ upload opens `/workspace` with that resume's extracted facts. **Explore the
 workspace** opens the upstream parsed resume fixture and eight **synthetic** job
 postings on a fresh session. No API key, Neo4j server, or model download is needed
 for the default demo or local PDF parsing. The image uses CPU PyTorch rather than the CUDA wheels
-in the upstream Linux lock. It does not change `pyproject.toml` or `uv.lock`.
+in the upstream Linux lock. Starting the image does not rewrite the committed
+`pyproject.toml` or `uv.lock`; the integration changes to those files are described
+in the main README.
 The port is published only on the local machine.
 
 ```sh
