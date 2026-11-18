@@ -19,7 +19,6 @@ dependencies = [
 ]
 
 [project.scripts]
-career-coach = "career_coach.data_extraction.main:main"
 
 [project.optional-dependencies]
 ner = [
