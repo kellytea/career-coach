@@ -39,7 +39,7 @@ def main():
         for features in records:
             entities = extractor.extract_entities(features)
             mappings = resolver.resolve_entities(entities, document_id=features["cv_id"])
-            print(f"Reviewing explicit entities and mappings for {features['cv_id']}")
+            print(f"Reviewing explicit entities and mappings for {features['cv_id']} via LLM...")
             reviewed = llm.resolve(features, mappings)
             audit = reviewed["llm_audit"]
             if "timing" in audit:
