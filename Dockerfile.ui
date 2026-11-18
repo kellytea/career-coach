@@ -1,0 +1,26 @@
+FROM ghcr.io/astral-sh/uv:0.13.8 AS uv
+FROM python:3.13-slim-bookworm
+COPY --from=uv /uv /bin/uv
+WORKDIR /repo
+ENV PYTHONDONTWRITEBYTECODE=1 UV_PYTHON_DOWNLOADS=never UV_LINK_MODE=copy
+COPY pyproject.toml uv.lock README.md /repo/
+# The upstream Linux lock includes CUDA wheels. This local UI uses CPU PyTorch.
+RUN python - <<'BUILD'
+import pathlib, subprocess
+subprocess.run(['/bin/uv','export','--locked','--no-dev','--no-emit-project','--no-hashes','--output-file','/tmp/locked.txt'],check=True,stdout=subprocess.DEVNULL)
+kept=[]
+for line in pathlib.Path('/tmp/locked.txt').read_text().splitlines():
+    name=line.split('==',1)[0].strip().lower().replace('_','-')
+    if name=='torch' or name=='triton' or name.startswith(('nvidia-','cuda-')):
+        continue
+    kept.append(line)
+pathlib.Path('/tmp/requirements-cpu.txt').write_text('\n'.join(kept)+'\n')
+subprocess.run(['/bin/uv','pip','install','--system','--no-cache','--no-deps','--index-url','https://download.pytorch.org/whl/cpu','torch==2.15.0+cpu'],check=True)
+subprocess.run(['/bin/uv','pip','install','--system','--no-cache','--no-deps','-r','/tmp/requirements-cpu.txt'],check=True)
+BUILD
+COPY . /repo
+# The team project uses package=false. Run from the source checkout, matching uv run.
+RUN uv pip check --system
+EXPOSE 8501
+HEALTHCHECK --interval=15s --timeout=5s --start-period=30s CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8501/health',timeout=3)"
+CMD ["python", "ui_server.py", "--host", "0.0.0.0"]

@@ -1,0 +1,170 @@
+{
+  "resumes": [
+    {
+      "cv_id": "resume.pdf",
+      "nodes": [
+        {
+          "type": "http://example.org/jobmatch#Role",
+          "id": "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890"
+        },
+        {
+          "type": "http://example.org/jobmatch#Role",
+          "id": "urn:career-coach:concept:occupation:61aff707b6736c9c50fa064f8d7c38e40c2c2e9fd6a33fed88b330b451279a1f"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:019e086eed5eb27f05c292ae27b865662c066c8ca9386700fc923d52ca3fe96c"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:044dbd2562a78dccfebc43c44bcdbd5d81f0eea49034f8d16c04f7de67052c58"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:1282208b8ed828af1d947caed366659e48a12e8b2c15d1247bba40bfc9bfda21"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:290d0d78345784b33fd69d4ccc569bfa16c0e5b1ffc7a31f38d05183cd851e58"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:3ca64e86d36204d7079b5bdbead0d72cbe9d773d378c44daca97e795ebcfc558"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:4950e4f982a9342228c7a39ff9904598c51b10e1207c89872bc7c14ff33598a8"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:4bd31d3f7e9f67f4f8e6f92f2cd357b1cd4639a3b9ffdf9ca5cb93492d94b419"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:6088b172cd8fb54ccaa9bc8a5b779ffa3dff993b3147235d07b54acd8fbfcc51"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:86736973434c8b7b9dfd7802022b1b3ff5ded460857450380ff958816bb1802a"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:a9ef2ab23c678792ac52d5abdd56fa9c3b6ae811cbadfa775cf8f4161aed4761"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:c4f270d771fb5a69772a5d51f81856cfc397431bc3ba90489c82e0edc7c93bc3"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:c8d1b68a4d44a577e903a8dd96125fcb67f44433cdef3d8f1cb6a2225707d966"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:c90b2b294ef79b7d49c5ed4c3786e0ca4561aeec1b6a9dda07684372e95a27ba"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:d31c576419ceda76928266ab87fdd806e341295786dd27f52c40ae417f3dc2f9"
+        },
+        {
+          "type": "http://example.org/jobmatch#Skill",
+          "id": "urn:career-coach:concept:skill:fae20e8a3494f7b7a1ba2966d495f251b09be589ddce4fe36c8d90ebbb856bbf"
+        },
+        {
+          "type": "http://example.org/jobmatch#DegreeLevel",
+          "id": "urn:career-coach:degree-level:v1:bachelor",
+          "rank": [
+            2
+          ]
+        },
+        {
+          "type": "http://example.org/jobmatch#Degree",
+          "id": "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:degree:58:61",
+          "degreeLevel": [
+            "urn:career-coach:degree-level:v1:bachelor"
+          ]
+        },
+        {
+          "type": "http://example.org/jobmatch#Experience",
+          "id": "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:experience:0",
+          "atOrganization": [],
+          "inRole": [
+            "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890"
+          ],
+          "yearsExperience": []
+        },
+        {
+          "type": "http://example.org/jobmatch#Experience",
+          "id": "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:experience:1349",
+          "atOrganization": [],
+          "inRole": [
+            "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890"
+          ],
+          "yearsExperience": []
+        },
+        {
+          "type": "http://example.org/jobmatch#Experience",
+          "id": "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:experience:1872",
+          "atOrganization": [],
+          "inRole": [
+            "urn:career-coach:concept:occupation:61aff707b6736c9c50fa064f8d7c38e40c2c2e9fd6a33fed88b330b451279a1f"
+          ],
+          "yearsExperience": []
+        },
+        {
+          "type": "http://example.org/jobmatch#Experience",
+          "id": "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:experience:585",
+          "atOrganization": [],
+          "inRole": [
+            "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890"
+          ],
+          "yearsExperience": []
+        },
+        {
+          "type": "http://example.org/jobmatch#Person",
+          "id": "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:person",
+          "hasExperience": [
+            "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:experience:0",
+            "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:experience:585",
+            "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:experience:1349",
+            "urn:career-coach:resume:95aaacaffff8c663a5d02807eb8d6554d6811af02bc701df636ac8b581625939:experience:1872"
+          ],
+          "hasSkill": [
+            "urn:career-coach:concept:skill:1282208b8ed828af1d947caed366659e48a12e8b2c15d1247bba40bfc9bfda21",
+            "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8",
+            "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919",
+            "urn:career-coach:concept:skill:290d0d78345784b33fd69d4ccc569bfa16c0e5b1ffc7a31f38d05183cd851e58",
+            "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0",
+            "urn:career-coach:concept:skill:a9ef2ab23c678792ac52d5abdd56fa9c3b6ae811cbadfa775cf8f4161aed4761",
+            "urn:career-coach:concept:skill:4bd31d3f7e9f67f4f8e6f92f2cd357b1cd4639a3b9ffdf9ca5cb93492d94b419",
+            "urn:career-coach:concept:skill:6088b172cd8fb54ccaa9bc8a5b779ffa3dff993b3147235d07b54acd8fbfcc51",
+            "urn:career-coach:concept:skill:d31c576419ceda76928266ab87fdd806e341295786dd27f52c40ae417f3dc2f9",
+            "urn:career-coach:concept:skill:c8d1b68a4d44a577e903a8dd96125fcb67f44433cdef3d8f1cb6a2225707d966",
+            "urn:career-coach:concept:skill:fae20e8a3494f7b7a1ba2966d495f251b09be589ddce4fe36c8d90ebbb856bbf",
+            "urn:career-coach:concept:skill:86736973434c8b7b9dfd7802022b1b3ff5ded460857450380ff958816bb1802a",
+            "urn:career-coach:concept:skill:044dbd2562a78dccfebc43c44bcdbd5d81f0eea49034f8d16c04f7de67052c58",
+            "urn:career-coach:concept:skill:3ca64e86d36204d7079b5bdbead0d72cbe9d773d378c44daca97e795ebcfc558",
+            "urn:career-coach:concept:skill:4950e4f982a9342228c7a39ff9904598c51b10e1207c89872bc7c14ff33598a8",
+            "urn:career-coach:concept:skill:c4f270d771fb5a69772a5d51f81856cfc397431bc3ba90489c82e0edc7c93bc3",
+            "urn:career-coach:concept:skill:c90b2b294ef79b7d49c5ed4c3786e0ca4561aeec1b6a9dda07684372e95a27ba",
+            "urn:career-coach:concept:skill:019e086eed5eb27f05c292ae27b865662c066c8ca9386700fc923d52ca3fe96c"
+          ],
+          "holdsDegree": []
+        }
+      ]
+    }
+  ]
+}

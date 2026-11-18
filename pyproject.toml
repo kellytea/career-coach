@@ -10,6 +10,7 @@ requires-python = ">=3.13"
 dependencies = [
     "dotenv>=0.9.9",
     "gliner>=0.2.30",
+    "numpy>=2.0",
     "openai>=3.53.0",
     "pandas==3.1.1",
     "pydantic>=2.14.3",
@@ -23,6 +24,11 @@ dependencies = [
 [project.optional-dependencies]
 ner = [
     "spacy>=3.8.18",
+]
+# Optional real dense retrieval; the default UI uses offline S1-S3 baselines.
+matching = [
+    "sentence-transformers>=3.0",
+    "faiss-cpu>=1.8",
 ]
 
 [tool.uv]

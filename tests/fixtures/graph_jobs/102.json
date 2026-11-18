@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:linkedin:job:102",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Registered Nurse"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:1020",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Valley Health"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:102",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:1020"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:linkedin:job:101",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Backend Engineer",
+        "minExperience": [
+          3.0
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:1010",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Acme"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:a9ef2ab23c678792ac52d5abdd56fa9c3b6ae811cbadfa775cf8f4161aed4761",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Python"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:3ca64e86d36204d7079b5bdbead0d72cbe9d773d378c44daca97e795ebcfc558",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Docker"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:073271706b6cc3797ad3f1bcdd6209385843e6b4d940b0db805c27fcdd5f5feb",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "CSS"
+      }
+    },
+    {
+      "id": "urn:career-coach:degree-level:v1:bachelor",
+      "labels": [
+        "DegreeLevel"
+      ],
+      "properties": {
+        "label": "bachelor",
+        "rank": [
+          2
+        ]
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:101",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:1010"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:101",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:a9ef2ab23c678792ac52d5abdd56fa9c3b6ae811cbadfa775cf8f4161aed4761"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:101",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:3ca64e86d36204d7079b5bdbead0d72cbe9d773d378c44daca97e795ebcfc558"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:101",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:073271706b6cc3797ad3f1bcdd6209385843e6b4d940b0db805c27fcdd5f5feb"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:101",
+      "type": "minDegreeLevel",
+      "end": "urn:career-coach:degree-level:v1:bachelor"
+    }
+  ]
+}

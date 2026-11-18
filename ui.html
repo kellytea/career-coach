@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>CareerCoach · Your next step</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/brand.svg">
+  <link rel="stylesheet" href="/assets/ui.css">
+  <script src="/assets/ui.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#recommendations">Skip to recommendations</a>
+  <header class="app-header">
+    <a class="brand" href="/" aria-label="CareerCoach home"><img class="brand-mark" src="/assets/brand.svg" alt="" width="38" height="42"><span>CareerCoach<span class="brand-caption">A clearer path to your next role</span></span></a>
+    <div class="header-actions"><span class="mode" id="mode">Loading workspace…</span><button id="reset" class="quiet">Reset workspace</button></div>
+  </header>
+  <div id="error" role="alert" hidden></div>
+  <main class="workspace" aria-busy="true" id="workspace">
+    <aside class="profile-panel" aria-label="Your profile">
+      <p class="eyebrow">Your starting point</p><h1>Your profile</h1>
+      <div class="profile-file"><span class="file-mark" aria-hidden="true">↗</span><div><p id="resume-name">Loading…</p><p class="subtle" id="profile-count"></p></div></div>
+      <p class="small muted" id="profile-processing" role="status" hidden></p>
+      <a class="text-link" href="/?upload=resume">Upload a new resume PDF</a>
+      <label class="field-label" for="profile-picker">Active resume</label><select id="profile-picker"></select>
+      <label class="upload-button" for="resume-upload">Upload parsed resume JSON<input id="resume-upload" type="file" accept=".json,application/json"></label>
+      <p class="small muted">Use the JSON from the project’s resume parser.</p>
+      <section class="profile-section"><h2>Documented skills</h2><div class="chips" id="profile-skills"></div><button id="more-skills" class="text-button">Show all skills</button></section>
+      <section class="profile-section"><h2>Experience &amp; education</h2><p id="profile-years" class="small muted"></p><p id="profile-degree" class="small muted"></p></section>
+      <section class="profile-section source-settings"><h2>Job catalog</h2><p id="catalog-name" class="small"></p><p id="catalog-count" class="small muted"></p><label class="upload-button" for="jobs-upload">Load job postings JSONL<input id="jobs-upload" type="file" accept=".jsonl,.ndjson"></label></section>
+      <p class="privacy-note">Uploads stay in this local session. Reset to return to the starting data.</p>
+    </aside>
+    <section class="jobs-panel" id="recommendations" aria-label="Job recommendations">
+      <p class="eyebrow">Find your next step</p><h2 class="section-title">Recommended for you</h2><p class="muted intro">Explore roles through the skills you’ve documented.</p>
+      <form id="search-form"><label class="field-label" for="search">Search roles, skills, or location</label><div class="search-row"><input id="search" type="search" placeholder="Try “Python” or “remote”" maxlength="500"><button class="primary" type="submit">Search</button></div></form>
+      <div class="ranking-row"><label class="field-label" for="system">Rank by</label><select id="system"></select></div>
+      <p class="results-label" id="result-count" role="status"></p><div id="job-list" class="job-list"></div>
+      <p class="small muted ranking-note">Rank is a recommendation order. Skills and requirements help you review each role.</p>
+    </section>
+    <section class="detail-panel" aria-label="Selected job" id="detail-panel">
+      <div id="empty-detail"><p class="eyebrow">Look a little closer</p><h2>Select a role to explore</h2><p class="muted">See the match, check its evidence, and prepare an introduction.</p></div>
+      <div id="selected-detail" hidden>
+        <div class="detail-topline"><p class="eyebrow" id="selected-rank"></p><a id="posting-link" class="text-link" target="_blank" rel="noopener noreferrer" hidden>View posting ↗</a></div>
+        <h2 class="job-heading" id="selected-title"></h2><p class="detail-company" id="selected-company"></p>
+        <div class="detail-nav" role="group" aria-label="Job details"><button data-panel="match" aria-pressed="true">Why this match</button><button data-panel="evidence" aria-pressed="false">Source evidence</button><button data-panel="draft" aria-pressed="false">Draft outreach</button></div>
+        <div id="detail-content"></div>
+      </div>
+      <details class="chat-section" id="chat-section"><summary>Ask CareerCoach</summary><p id="chat-mode" class="small muted"></p><div id="chat-history" role="log" aria-live="polite"></div><form id="chat-form"><label class="field-label" for="chat-message">Ask about your matches</label><textarea id="chat-message" rows="2" maxlength="4000" placeholder="Which roles fit my skills?"></textarea><button class="primary" id="chat-send">Ask</button></form></details>
+    </section>
+  </main>
+  <footer><span id="footer-status">Connecting to the matching module…</span><span>Built around your evidence.</span></footer>
+  <noscript><p>This workspace needs JavaScript enabled to connect to the matching module.</p></noscript>
+</body>
+</html>

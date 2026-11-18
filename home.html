@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Start with your resume. Explore job matches, understand your skills, and prepare your next introduction with CareerCoach.">
+  <title>CareerCoach · Your next chapter</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/brand.svg">
+  <link rel="stylesheet" href="/assets/home.css">
+  <script src="/assets/home.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="home-header shell">
+    <a class="home-brand" href="/" aria-label="CareerCoach home"><img src="/assets/brand.svg" alt="" width="40" height="44">CareerCoach</a>
+    <nav aria-label="Main navigation"><a href="#how-it-works">How it works</a><a href="#faq">FAQ</a><button class="pill" data-upload>Upload resume</button></nav>
+  </header>
+  <main id="main" class="shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A little clarity. A big next step.</p>
+        <h1 id="hero-title">Finding your next chapter, just a click away</h1>
+        <p class="hero-description">Start with the resume you already have. Explore roles that connect to your skills, understand what’s missing, and make your next introduction with confidence.</p>
+        <div class="hero-actions"><button class="pill upload-cta" data-upload>Upload your resume <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 16V3m-5 5 5-5 5 5M5 14v6h14v-6"/></svg></button><a class="workspace-link" href="/workspace">Explore the workspace <span aria-hidden="true">→</span></a></div>
+        <p class="upload-hint">PDF with selectable text · Up to 6 MB</p>
+      </div>
+      <div class="resume-scene" aria-label="Illustration of a sample resume">
+        <div class="resume-backdrop">
+          <div class="resume-paper" aria-hidden="true">
+            <div class="paper-name">Alex Morgan</div><div class="paper-role">Product designer</div><div class="paper-contact">Brooklyn, NY · Sample resume</div>
+            <div class="paper-section"><span>Education</span><p>Bachelor of Fine Arts in Communications Design<br>Pratt Institute · Brooklyn, NY<br>2016–2020 · 3.75 GPA</p></div>
+            <div class="paper-section"><span>Experience</span><h3>Senior Product Designer</h3><p>Studio North / 2022–Present</p><p>Led end-to-end design for a collaborative workspace.<br>Partnered with research and engineering to bring<br>new ideas to life.</p></div>
+            <div class="paper-section"><span>Skills</span><p>Product strategy · UX research · Interaction design</p></div>
+          </div>
+        </div>
+        <div class="story-badge"><span class="checkmark" aria-hidden="true">✓</span><div><strong>Your story, made clearer.</strong><p>Practical feedback. Real possibility.</p></div></div>
+      </div>
+    </section>
+    <section class="how-section" id="how-it-works" aria-labelledby="how-title">
+      <h2 id="how-title">A fresh perspective.<br>Not a fresh start.</h2>
+      <article><p class="step-number">01</p><h3>Drop it in</h3><p>Upload the resume you already have. Start with a PDF that has selectable text.</p></article>
+      <article><p class="step-number">02</p><h3>Find your best matches</h3><p>Explore ranked roles and see how your documented skills connect to each posting.</p></article>
+      <article><p class="step-number">03</p><h3>Take the next step</h3><p>Review skill gaps, check the evidence, and create an introduction you can make your own.</p></article>
+    </section>
+    <section class="faq-section" id="faq" aria-labelledby="faq-title">
+      <div><p class="eyebrow">A little more clarity</p><h2 id="faq-title">Before you begin.</h2></div>
+      <div class="faq-list">
+        <details><summary>What kind of resume can I upload?</summary><p>A PDF under 6 MB with selectable text, up to 30 pages. Scanned images need OCR first. If you already have the project’s parsed resume JSON, you can load that in the matching workspace.</p></details>
+        <details><summary>What happens after I upload?</summary><p>Your PDF is read and its explicit skills and qualifications are mapped into a profile. You’ll move to the matching workspace to review those facts, explore roles, and draft outreach. Some details may remain “not documented,” so check your extracted profile before relying on it.</p></details>
+        <details><summary>Are these live job listings?</summary><p>The default demo includes eight synthetic job postings. Your team can load its own postings in the workspace or start the server with its job dataset. The catalog label tells you which source is being used.</p></details>
+        <details><summary>Where does my resume go?</summary><p>The default setup processes your PDF on the server running this app without calling an AI service. The PDF is removed after parsing; extracted facts stay in your session until it expires or the server restarts. If your team enables the optional Voyager features, resume facts may be sent to that configured service.</p></details>
+      </div>
+    </section>
+  </main>
+  <footer class="home-footer shell"><p>Your experience is the starting point. Let’s make it shine.</p><a href="/workspace">Open matching workspace <span aria-hidden="true">↗</span></a></footer>
+  <dialog id="upload-dialog" aria-labelledby="upload-title" aria-describedby="upload-description">
+    <button class="close-dialog" id="close-upload" aria-label="Close upload dialog"><span aria-hidden="true">×</span></button>
+    <p class="eyebrow">Your next chapter</p><h2 id="upload-title">Start with your resume.</h2>
+    <p id="upload-description">A little perspective can go a long way. Upload your PDF and take the first step toward a clearer, stronger story.</p>
+    <div class="drop-zone" id="drop-zone">
+      <span class="upload-symbol" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.1"><path d="M15 6h13l9 9v26H12a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h3Zm12 0v11h10M23 35V22m-6 6 6-6 6 6"/></svg></span>
+      <h3>Drop your resume PDF here</h3><p>or browse your device to get started</p>
+      <label class="pill choose-file" for="pdf-upload">Choose PDF<input id="pdf-upload" type="file" accept=".pdf,application/pdf"></label>
+    </div>
+    <div class="upload-progress" id="upload-progress" hidden><progress aria-label="Processing resume"></progress><p role="status" id="upload-status">Reading your resume and preparing your matches…</p></div>
+    <p class="upload-error" id="upload-error" role="alert" hidden></p>
+    <p class="pdf-tip"><span aria-hidden="true">ⓘ</span> For the best results, use a PDF with selectable text. Maximum 6 MB.</p>
+  </dialog>
+  <noscript><p class="shell">Enable JavaScript to upload a resume. You can still read about the project on this page.</p></noscript>
+</body>
+</html>

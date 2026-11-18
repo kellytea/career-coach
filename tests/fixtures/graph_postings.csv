@@ -1,0 +1,4 @@
+job_id,title,description,skills_desc,location,job_posting_url
+101,Backend Engineer,"Build Python services with Docker.",CSS,"Phoenix, AZ",https://example.com/101
+102,Registered Nurse,Patient care.,,"Mesa, AZ",
+999,Other,Not in the export,,,

@@ -1,0 +1,9 @@
+name: career-coach-ui
+services:
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    image: career-coach-ui:local
+    ports:
+      - "127.0.0.1:8501:8501"
