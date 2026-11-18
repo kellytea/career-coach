@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:linkedin:company:108486",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "H10 Capital"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884437721",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Display Software Engineer (16939)"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:a0ac2b24da04f3555c9c0c055ea637c954d3285982200d5cac871e0474801274",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Display Software Engineer (16939)"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:ae7d4061350f326b3e44285e54f48ce1b84b78d8823ece149de8655f77d7f573",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Strong programming skills"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:e651be856720b745fbfae82103b2f594fecfc1575a6cec9bf7235c1870d5947a",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C/C++"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884437721",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:a0ac2b24da04f3555c9c0c055ea637c954d3285982200d5cac871e0474801274"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437721",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:108486"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437721",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:ae7d4061350f326b3e44285e54f48ce1b84b78d8823ece149de8655f77d7f573"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437721",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:e651be856720b745fbfae82103b2f594fecfc1575a6cec9bf7235c1870d5947a"
+    }
+  ]
+}

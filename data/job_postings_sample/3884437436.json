@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:1282208b8ed828af1d947caed366659e48a12e8b2c15d1247bba40bfc9bfda21",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Oracle Java"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "TypeScript"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "JavaScript"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:82333881",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Bracco Medical Technologies"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884437436",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Senior Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:013f129b5c6e7bd9ec2e1430f96c0e35a5645145b52d2115a015b04c7fc2f141",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Senior Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:4e3c1a697b854d115d7f72bf11f68a6634a09cdbb0b039db973d6839efc148a9",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "HTML"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:6d6d19dce74356170aa198e7df926b7fc8192e871b2c03419dfaab07eb67234e",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Jenkins"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:71d9d9a855a861a5ce5dd014f9ec056574f32f4b293099dc319130c57d500d97",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "software design"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:8f7d586e7ff2efd76c2bff8bdb0d87ede718f9577c3c4109fe2f33a0fa1cdaf7",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C#/.NET"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:b51082396584e3c42f830b95b3beba466e625cb1dd0c08939ec27b7382bae54b",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Azure DevOps"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:f96e2cbc9b515fecbfa5f5d5c3a312a1bca5adf1a328f5f799a342809d8cf7bd",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "software development proficiency"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:013f129b5c6e7bd9ec2e1430f96c0e35a5645145b52d2115a015b04c7fc2f141"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:82333881"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:1282208b8ed828af1d947caed366659e48a12e8b2c15d1247bba40bfc9bfda21"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:4e3c1a697b854d115d7f72bf11f68a6634a09cdbb0b039db973d6839efc148a9"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:6d6d19dce74356170aa198e7df926b7fc8192e871b2c03419dfaab07eb67234e"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:71d9d9a855a861a5ce5dd014f9ec056574f32f4b293099dc319130c57d500d97"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:8f7d586e7ff2efd76c2bff8bdb0d87ede718f9577c3c4109fe2f33a0fa1cdaf7"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:b51082396584e3c42f830b95b3beba466e625cb1dd0c08939ec27b7382bae54b"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437436",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:f96e2cbc9b515fecbfa5f5d5c3a312a1bca5adf1a328f5f799a342809d8cf7bd"
+    }
+  ]
+}

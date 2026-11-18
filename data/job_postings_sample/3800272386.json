@@ -1,0 +1,228 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:044dbd2562a78dccfebc43c44bcdbd5d81f0eea49034f8d16c04f7de67052c58",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Git"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:3ca64e86d36204d7079b5bdbead0d72cbe9d773d378c44daca97e795ebcfc558",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Docker"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:4950e4f982a9342228c7a39ff9904598c51b10e1207c89872bc7c14ff33598a8",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Kubernetes"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:4bd31d3f7e9f67f4f8e6f92f2cd357b1cd4639a3b9ffdf9ca5cb93492d94b419",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Structured query language SQL"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:95d1c06950c5e7718c65c11649857fb43e2c3e59373e32cb3910d0f5f8e211ce",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "pandas"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:b401039554222ddf0ad42abf103c8131b74ac053aa144b90ed4b312c50966912",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "NumPy"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:c4f270d771fb5a69772a5d51f81856cfc397431bc3ba90489c82e0edc7c93bc3",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Atlassian JIRA"
+      }
+    },
+    {
+      "id": "urn:career-coach:degree-level:v1:bachelor",
+      "labels": [
+        "DegreeLevel"
+      ],
+      "properties": {
+        "label": "bachelor",
+        "rank": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:80936343",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Sovrinti"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3800272386",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Data Science Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:c57820dccffb14029f5b2bc11fd8455c0da06eb64270e5fcfea26c55b3c497d5",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Data Science Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:2d8b7b699da21dc942d4563bd5e740e8d608ebd4be0e665a6cb7df0d52f9e2fd",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "communication skills"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:4919e1a2248baae3121900d4d7076019cb6443105c997241458fc2dd41980346",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Matplotlib"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:70ea14efa44d58a503c8a90addca71f6cb03a313b729a13b158eab202365a111",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Plotly"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:82e186d8138e941c807f58f943bb626e4e5392450ccc00a1444643dc618f2556",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Python-based"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:c23c6fcce598a92710b4f04488122e4aed8607ca57c1a0639da773660aca1df7",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Strong documentation skills"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:c57820dccffb14029f5b2bc11fd8455c0da06eb64270e5fcfea26c55b3c497d5"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "minDegreeLevel",
+      "end": "urn:career-coach:degree-level:v1:bachelor"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:80936343"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:044dbd2562a78dccfebc43c44bcdbd5d81f0eea49034f8d16c04f7de67052c58"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:3ca64e86d36204d7079b5bdbead0d72cbe9d773d378c44daca97e795ebcfc558"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:4950e4f982a9342228c7a39ff9904598c51b10e1207c89872bc7c14ff33598a8"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:4bd31d3f7e9f67f4f8e6f92f2cd357b1cd4639a3b9ffdf9ca5cb93492d94b419"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:95d1c06950c5e7718c65c11649857fb43e2c3e59373e32cb3910d0f5f8e211ce"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:b401039554222ddf0ad42abf103c8131b74ac053aa144b90ed4b312c50966912"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:c4f270d771fb5a69772a5d51f81856cfc397431bc3ba90489c82e0edc7c93bc3"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:2d8b7b699da21dc942d4563bd5e740e8d608ebd4be0e665a6cb7df0d52f9e2fd"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:4919e1a2248baae3121900d4d7076019cb6443105c997241458fc2dd41980346"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:70ea14efa44d58a503c8a90addca71f6cb03a313b729a13b158eab202365a111"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:82e186d8138e941c807f58f943bb626e4e5392450ccc00a1444643dc618f2556"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3800272386",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:c23c6fcce598a92710b4f04488122e4aed8607ca57c1a0639da773660aca1df7"
+    }
+  ]
+}

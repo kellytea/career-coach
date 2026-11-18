@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Software Developers"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:22c2a6ef8651f61f3ed8e5241b5fafd4b3e3a347bac4d4f5d1eb895ee08143cd",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "PHP"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:76987056",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "GOYT"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:175485704",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:a2c46eac6b71a79de27d119cb4d689a69cc3017eafbfc27fd7db911bc4f8d5e3",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Excellent communication and collaboration skills"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:ab60648b99ea5776caf3fd8ac7cde6b86d08a85951090f14f4bfe6cb29b58375",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "strong understanding of object-oriented programming principles"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:175485704",
+      "type": "forRole",
+      "end": "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:175485704",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:76987056"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:175485704",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:22c2a6ef8651f61f3ed8e5241b5fafd4b3e3a347bac4d4f5d1eb895ee08143cd"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:175485704",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:a2c46eac6b71a79de27d119cb4d689a69cc3017eafbfc27fd7db911bc4f8d5e3"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:175485704",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:ab60648b99ea5776caf3fd8ac7cde6b86d08a85951090f14f4bfe6cb29b58375"
+    }
+  ]
+}

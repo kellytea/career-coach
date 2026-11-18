@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:0906d37bcb04a19ec08ae0b98937ffa63c558f43f32a146cd203d9878e22f956",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "OpenGL"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:290d0d78345784b33fd69d4ccc569bfa16c0e5b1ffc7a31f38d05183cd851e58",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C++"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:553ac37ab4d6cd47fefcc835265975cebb32c0d67ace5d528cc1778ebff41344",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C#"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:8913985",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Renewed Vision"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884432470",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Windows Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:5d88e21d9ec1dfd604054ebc058663aa590345e258d48be17127a40c56ace24a",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Windows Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:08f1ef12204ceef8da2d4cc26d354b835ca8dc52c97f7dd0c9541bfecdfaadc7",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "DirectX"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:0fe0c224624e51a44dd39178560ef6d51037f6b0e5f5e83e061de4f8b4f10200",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "WPF"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:e2946cabbb26da3c076d98f3395e9fe1e0725ba39df2fe6e79f955408c07ed90",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Windows"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884432470",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:5d88e21d9ec1dfd604054ebc058663aa590345e258d48be17127a40c56ace24a"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884432470",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:8913985"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884432470",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:0906d37bcb04a19ec08ae0b98937ffa63c558f43f32a146cd203d9878e22f956"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884432470",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:290d0d78345784b33fd69d4ccc569bfa16c0e5b1ffc7a31f38d05183cd851e58"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884432470",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:553ac37ab4d6cd47fefcc835265975cebb32c0d67ace5d528cc1778ebff41344"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884432470",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884432470",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:08f1ef12204ceef8da2d4cc26d354b835ca8dc52c97f7dd0c9541bfecdfaadc7"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884432470",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:0fe0c224624e51a44dd39178560ef6d51037f6b0e5f5e83e061de4f8b4f10200"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884432470",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:e2946cabbb26da3c076d98f3395e9fe1e0725ba39df2fe6e79f955408c07ed90"
+    }
+  ]
+}

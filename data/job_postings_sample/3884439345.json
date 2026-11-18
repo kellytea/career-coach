@@ -1,0 +1,214 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:3ca64e86d36204d7079b5bdbead0d72cbe9d773d378c44daca97e795ebcfc558",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Docker"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:4950e4f982a9342228c7a39ff9904598c51b10e1207c89872bc7c14ff33598a8",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Kubernetes"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:53958342bbab56409a5a174d09fc43403ef9ea0786c75d4c9785a6c8f8a72700",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Puppet"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C#"
+      }
+    },
+    {
+      "id": "urn:career-coach:degree-level:v1:bachelor",
+      "labels": [
+        "DegreeLevel"
+      ],
+      "properties": {
+        "label": "bachelor",
+        "rank": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:743843",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "OSI Engineering"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884439345",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Software Engineer for global computer software company in Redmond, WA."
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:0e0d4f6651e3637526532d3fe0fcfc44f1bfc599ce0b7f03da2a2670b29c444a",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Software Engineer for global computer software company in Redmond, WA."
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:067d4493f9fa5ed8f0d4a03f579be2e610e55e056c1d293504d33d4f491c6b00",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Effective communication skills"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:1088627a7acdf6bd9fadd2d4534c6811e235374a0fcda39e2e56a482484d5bdf",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Terraform"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:24e7ce1718326ac0282a15f7ae33abb04a8cd789ce294d3e9140b3e6876a2ccc",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "ARM"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:7b68531f62de5e0077bcbc26d940971d43b992f26158d8830f3f461ecfd97641",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Ansible"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:e240ff9be4b2e07e6d7e0ef34a65ed8d29d7217118c8e7108a98871f8deb655c",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Excellent problem-solving skills"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:e48df1b8876ac1a08df5dab56ce4f3dc2e3d2e75d641a47686dfd28b0e45ee5a",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Bicep"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:fafafbabf69754c80c6123e44399c94248f38aed1311c963f72df92613dd0474",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "automation tools"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:0e0d4f6651e3637526532d3fe0fcfc44f1bfc599ce0b7f03da2a2670b29c444a"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "minDegreeLevel",
+      "end": "urn:career-coach:degree-level:v1:bachelor"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:743843"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:3ca64e86d36204d7079b5bdbead0d72cbe9d773d378c44daca97e795ebcfc558"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:4950e4f982a9342228c7a39ff9904598c51b10e1207c89872bc7c14ff33598a8"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:53958342bbab56409a5a174d09fc43403ef9ea0786c75d4c9785a6c8f8a72700"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:067d4493f9fa5ed8f0d4a03f579be2e610e55e056c1d293504d33d4f491c6b00"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:1088627a7acdf6bd9fadd2d4534c6811e235374a0fcda39e2e56a482484d5bdf"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:24e7ce1718326ac0282a15f7ae33abb04a8cd789ce294d3e9140b3e6876a2ccc"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:7b68531f62de5e0077bcbc26d940971d43b992f26158d8830f3f461ecfd97641"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:e240ff9be4b2e07e6d7e0ef34a65ed8d29d7217118c8e7108a98871f8deb655c"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:e48df1b8876ac1a08df5dab56ce4f3dc2e3d2e75d641a47686dfd28b0e45ee5a"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884439345",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:fafafbabf69754c80c6123e44399c94248f38aed1311c963f72df92613dd0474"
+    }
+  ]
+}

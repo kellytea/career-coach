@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:04a3d9a304b4d8c79007b5709e4dedcc1abba2fd9edf2ccb12e5096462ff6a27",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Selenium"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:99928047",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Vendor Build Inc"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3880134115",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Software Development Engineer in Test",
+        "minExperience": [
+          5.0
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:1d9d463ca36193837964b0c094efe3d7cb254895da8c5bb7f7ddbb0a5e4c0752",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Software Development Engineer in Test"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:63e3a42fcd0c2bc3820823b61f131b485a5d862055faad68bd11e4d7ee5ad107",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "API"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:7758d5ce14a9811fedc92647e94f3efe335ead864218421343eb13575bd9819b",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Katalon"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:8465a3dc825d6c9c3c9978b862d25aa8997d6fef6a886398a3558096342f18de",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "System testing"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:8d65ed07745a1836bb268be88ddae3f164d2b0044e59f1e17ccac0eafdef8b9c",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Integration testing"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:a5ab66ac8e242bce1a02319824b3dd1c2e5515617df372ae9eac2f12bad8b2ad",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "PACT"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3880134115",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:1d9d463ca36193837964b0c094efe3d7cb254895da8c5bb7f7ddbb0a5e4c0752"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3880134115",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:99928047"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3880134115",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:04a3d9a304b4d8c79007b5709e4dedcc1abba2fd9edf2ccb12e5096462ff6a27"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3880134115",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:63e3a42fcd0c2bc3820823b61f131b485a5d862055faad68bd11e4d7ee5ad107"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3880134115",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:7758d5ce14a9811fedc92647e94f3efe335ead864218421343eb13575bd9819b"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3880134115",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:8465a3dc825d6c9c3c9978b862d25aa8997d6fef6a886398a3558096342f18de"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3880134115",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:8d65ed07745a1836bb268be88ddae3f164d2b0044e59f1e17ccac0eafdef8b9c"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3880134115",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:a5ab66ac8e242bce1a02319824b3dd1c2e5515617df372ae9eac2f12bad8b2ad"
+    }
+  ]
+}

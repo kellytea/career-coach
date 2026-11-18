@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "TypeScript"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "JavaScript"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:9cd8bd84242a29fbdd04bf9106f0c7c7b7b5f9ee807bcb5ef3f0e962163daaf5",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "PostgreSQL"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:90662302",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "StyleAI"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3586167732",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Senior Software Engineer",
+        "minExperience": [
+          8.0
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:013f129b5c6e7bd9ec2e1430f96c0e35a5645145b52d2115a015b04c7fc2f141",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Senior Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:6f2238d6ceb541cb345b2122c98ecd02ef20f02f667ccd01e46d9df5e60e69c8",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Kafka"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:83a627e63298d50ea3c60f19fef5d783a629dccbaca6202a8092dd13426510b2",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Adwin"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:8680a4f02561a438f64cca3ed560eced52b712936a40987bb666e85cbc65d0ed",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Crafta"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:8f2aeaca3e71a2f3e11a5a6d3948b90b32836f816213670ab81faf43ca6d7904",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Seona"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:aac8b3994230b4116afde5f808cecc0096b778601cef6a854f1dd298aec8966d",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Golang"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:dd3ffb4254c224b5b5315f037acd59ada0bfe3fa8d65597c17bbb61e2a62fc4b",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "strong attention to detail"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:013f129b5c6e7bd9ec2e1430f96c0e35a5645145b52d2115a015b04c7fc2f141"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:90662302"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:9cd8bd84242a29fbdd04bf9106f0c7c7b7b5f9ee807bcb5ef3f0e962163daaf5"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:6f2238d6ceb541cb345b2122c98ecd02ef20f02f667ccd01e46d9df5e60e69c8"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:83a627e63298d50ea3c60f19fef5d783a629dccbaca6202a8092dd13426510b2"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:8680a4f02561a438f64cca3ed560eced52b712936a40987bb666e85cbc65d0ed"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:8f2aeaca3e71a2f3e11a5a6d3948b90b32836f816213670ab81faf43ca6d7904"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:aac8b3994230b4116afde5f808cecc0096b778601cef6a854f1dd298aec8966d"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3586167732",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:dd3ffb4254c224b5b5315f037acd59ada0bfe3fa8d65597c17bbb61e2a62fc4b"
+    }
+  ]
+}

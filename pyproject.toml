@@ -8,33 +8,32 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "flask>=3.1,<4", "sqlalchemy>=2.0,<3", "psycopg[binary]>=3.2,<4",
-    "pydantic>=2.10,<3", "celery>=5.5,<6", "httpx>=0.28,<1",
-    "pdfplumber>=0.11,<1", "python-docx>=1.2,<2",
-    "beautifulsoup4>=4.13,<5", "rapidfuzz>=3.12,<4", "python-dotenv>=1,<2",
-    "gliner>=0.2.21,<0.3", "huggingface-hub>=0.30,<1",
-    # SentencePiece's generated tokenizer schema requires this runtime version.
-    "protobuf>=7.36.1,<8",
-    "torch>=2.6,<3",
-    "openpyxl>=3.1,<4",
+    "dotenv>=0.9.9",
+    "gliner>=0.2.30",
+    "openai>=3.53.0",
+    "pandas==3.1.1",
+    "pydantic>=2.14.3",
+    "pymupdf==2.1.0",
+    "rdflib>=7.6.0",
+    "streamlit>=1.67.0",
 ]
 
-[project.optional-dependencies]
-embeddings = ["sentence-transformers>=4,<6"]
-
-# The baseline worker runs on CPU; avoid downloading unused CUDA runtimes.
-[tool.uv.sources]
-torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux' or sys_platform == 'win32'" }]
-
-[[tool.uv.index]]
-name = "pytorch-cpu"
-url = "https://download.pytorch.org/whl/cpu"
-explicit = true
-
 [project.scripts]
-career-coach = "career_coach.app:main"
-career-coach-import-onet = "career_coach.data_extraction.import_onet:main"
+career-coach = "career_coach.data_extraction.main:main"
+
+[project.optional-dependencies]
+ner = [
+    "spacy>=3.8.18",
+]
+
+[tool.uv]
+package = false
+link-mode = "copy"
+
+[tool.uv.build-backend]
+module-name = "career_coach.data_extraction"
+module-root = ""
 
 [build-system]
-requires = ["uv_build>=0.12.20,<0.13.0"]
+requires = ["uv_build>=0.13.8,<0.14.0"]
 build-backend = "uv_build"

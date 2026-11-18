@@ -6,12 +6,17 @@
       "download_url": "https://www.kaggle.com/api/v1/datasets/download/arshkon/linkedin-job-postings?datasetVersionNumber=13",
       "format": "zip",
       "files": [
-        "job_postings.csv",
-        "job_details/benefits.csv",
-        "job_details/industries.csv",
-        "job_details/skills.csv",
-        "company_details/companies.csv",
-        "company_details/employee_counts.csv"
+        "postings.csv",
+        "jobs/benefits.csv",
+        "jobs/job_industries.csv",
+        "jobs/job_skills.csv",
+        "jobs/salaries.csv",
+        "companies/companies.csv",
+        "companies/company_industries.csv",
+        "companies/company_specialities.csv",
+        "companies/employee_counts.csv",
+        "mappings/industries.csv",
+        "mappings/skills.csv"
       ]
     },
     {

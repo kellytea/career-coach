@@ -1,0 +1,284 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:044dbd2562a78dccfebc43c44bcdbd5d81f0eea49034f8d16c04f7de67052c58",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Git"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:1282208b8ed828af1d947caed366659e48a12e8b2c15d1247bba40bfc9bfda21",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Oracle Java"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "TypeScript"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:4bd31d3f7e9f67f4f8e6f92f2cd357b1cd4639a3b9ffdf9ca5cb93492d94b419",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Structured query language SQL"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:6088b172cd8fb54ccaa9bc8a5b779ffa3dff993b3147235d07b54acd8fbfcc51",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "React"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "JavaScript"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:9cd8bd84242a29fbdd04bf9106f0c7c7b7b5f9ee807bcb5ef3f0e962163daaf5",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "PostgreSQL"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:c8d1b68a4d44a577e903a8dd96125fcb67f44433cdef3d8f1cb6a2225707d966",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Node.js"
+      }
+    },
+    {
+      "id": "urn:career-coach:degree-level:v1:bachelor",
+      "labels": [
+        "DegreeLevel"
+      ],
+      "properties": {
+        "label": "bachelor",
+        "rank": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:2385130",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Goosehead Insurance Agency"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884440867",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Senior Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:013f129b5c6e7bd9ec2e1430f96c0e35a5645145b52d2115a015b04c7fc2f141",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Senior Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:03d609a3281a5ded0f1e73a01af95cee422500354dae1d226234f2fac7d9cdbb",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Redux"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:073271706b6cc3797ad3f1bcdd6209385843e6b4d940b0db805c27fcdd5f5feb",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "CSS"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:147bfcde24ce97a81c4e0ecf44923a43131d5f00138a90b970d66c68ec5c1486",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "CI/CD"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:4e3c1a697b854d115d7f72bf11f68a6634a09cdbb0b039db973d6839efc148a9",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "HTML"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:624776ec5903b0c8d9fbaf4b5717be8f3aaf6938b6b800269cdf87fa4bd40d05",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Source Control"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:62b01415f47be7532676392a77cda785582c684143b8340fa46a912b371a9526",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Flux"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:7c16c35a93003678d784eff76966e38792d752a063894dfa832d632fbaa49b93",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Postgres DB"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:dd04eac6e9f8f3f4d9e5759052fff57c3cd867273b4740ea8eb0355bbecff00c",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Excellent communication and problem-solving skills"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:013f129b5c6e7bd9ec2e1430f96c0e35a5645145b52d2115a015b04c7fc2f141"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "minDegreeLevel",
+      "end": "urn:career-coach:degree-level:v1:bachelor"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:2385130"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:044dbd2562a78dccfebc43c44bcdbd5d81f0eea49034f8d16c04f7de67052c58"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:1282208b8ed828af1d947caed366659e48a12e8b2c15d1247bba40bfc9bfda21"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:4bd31d3f7e9f67f4f8e6f92f2cd357b1cd4639a3b9ffdf9ca5cb93492d94b419"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:6088b172cd8fb54ccaa9bc8a5b779ffa3dff993b3147235d07b54acd8fbfcc51"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:9cd8bd84242a29fbdd04bf9106f0c7c7b7b5f9ee807bcb5ef3f0e962163daaf5"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:c8d1b68a4d44a577e903a8dd96125fcb67f44433cdef3d8f1cb6a2225707d966"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:03d609a3281a5ded0f1e73a01af95cee422500354dae1d226234f2fac7d9cdbb"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:073271706b6cc3797ad3f1bcdd6209385843e6b4d940b0db805c27fcdd5f5feb"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:147bfcde24ce97a81c4e0ecf44923a43131d5f00138a90b970d66c68ec5c1486"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:4e3c1a697b854d115d7f72bf11f68a6634a09cdbb0b039db973d6839efc148a9"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:624776ec5903b0c8d9fbaf4b5717be8f3aaf6938b6b800269cdf87fa4bd40d05"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:62b01415f47be7532676392a77cda785582c684143b8340fa46a912b371a9526"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:7c16c35a93003678d784eff76966e38792d752a063894dfa832d632fbaa49b93"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884440867",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:dd04eac6e9f8f3f4d9e5759052fff57c3cd867273b4740ea8eb0355bbecff00c"
+    }
+  ]
+}

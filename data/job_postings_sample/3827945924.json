@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Software Developers"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:044dbd2562a78dccfebc43c44bcdbd5d81f0eea49034f8d16c04f7de67052c58",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Git"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "JavaScript"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C#"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:b11b7f174d9b2cad02a81551a24f1d0d93474af023d28e831ef5e6430f4a26b5",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Microsoft ASP.NET"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:c418a264f5a344db7f213a0490265161c7ae3768fb4760b1ed42596fd379fb7d",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Bootstrap"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:d8f80d7b9641cb9df0a92d371b89dcef52e38505aa50d0a849b79c621946f38d",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "jQuery"
+      }
+    },
+    {
+      "id": "urn:career-coach:degree-level:v1:associate",
+      "labels": [
+        "DegreeLevel"
+      ],
+      "properties": {
+        "label": "associate",
+        "rank": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:544277",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "TRG"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3827945924",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:02baaffbf679d32ec3ac0b22072f34571a7cc0103e473828c2380b11a84ddcb1",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "VB.Net"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:0ff109cd917ce75f602a234d88efa6cd3dbfbb0faa61b9dc4b85a61cfb61850e",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "SSIS"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:4e23b392048439acfc9c40dd5d4e908f779147cd3b302b13acce4a083fd3c13d",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "JSON"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:7a134fb635382854aec7132bd98c2f31a827eb7df2548917283e57d04e210163",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "SSRS"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:7c0a2f16c6cccf28f099bbc39b80243a595568664f9bcc876f6dc13c489d78fe",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "SQL Server"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:9dc2929b3bc39464e0b3bdf2761f15a73be5cc60301229686eb5d964cd16f149",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": ".NET Framework"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:ab1dbb4cbe99555aa3d1f28a3f8b06070304db482af31cce396681523edcc214",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "VB"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:d4b097383ebebdd2c456edec3357a2a3ba9a642cdf9a6b1f9e12a9e961c2284d",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "MVC"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:e0473bee5059105b9c370b0877ef26b39325fa35760ad9ac293dc5efac2e36ab",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "REST API"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "forRole",
+      "end": "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "minDegreeLevel",
+      "end": "urn:career-coach:degree-level:v1:associate"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:544277"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:044dbd2562a78dccfebc43c44bcdbd5d81f0eea49034f8d16c04f7de67052c58"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:b11b7f174d9b2cad02a81551a24f1d0d93474af023d28e831ef5e6430f4a26b5"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:c418a264f5a344db7f213a0490265161c7ae3768fb4760b1ed42596fd379fb7d"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:d8f80d7b9641cb9df0a92d371b89dcef52e38505aa50d0a849b79c621946f38d"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:02baaffbf679d32ec3ac0b22072f34571a7cc0103e473828c2380b11a84ddcb1"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:0ff109cd917ce75f602a234d88efa6cd3dbfbb0faa61b9dc4b85a61cfb61850e"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:4e23b392048439acfc9c40dd5d4e908f779147cd3b302b13acce4a083fd3c13d"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:7a134fb635382854aec7132bd98c2f31a827eb7df2548917283e57d04e210163"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:7c0a2f16c6cccf28f099bbc39b80243a595568664f9bcc876f6dc13c489d78fe"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:9dc2929b3bc39464e0b3bdf2761f15a73be5cc60301229686eb5d964cd16f149"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:ab1dbb4cbe99555aa3d1f28a3f8b06070304db482af31cce396681523edcc214"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:d4b097383ebebdd2c456edec3357a2a3ba9a642cdf9a6b1f9e12a9e961c2284d"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3827945924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:e0473bee5059105b9c370b0877ef26b39325fa35760ad9ac293dc5efac2e36ab"
+    }
+  ]
+}

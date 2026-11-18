@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Software Developers"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:205ca6e21bdf803f257fff07f9caa4faebebf45567fb2bec92861ff6b9970749",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Microsoft .NET Framework"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C#"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:86694680",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Ascendion"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884437640",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:1088627a7acdf6bd9fadd2d4534c6811e235374a0fcda39e2e56a482484d5bdf",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "terraform"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:c9179dc615143544d4779e6cd7e81bd721dffec3a8d64768cdf518407ac0017b",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "DevOps tools"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:ee31be1d72eee79f5740d07bcd24398b6d2d3b11e8acc80c2074d122c1d48c6e",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "engineering"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:fafafbabf69754c80c6123e44399c94248f38aed1311c963f72df92613dd0474",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "automation tools"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884437640",
+      "type": "forRole",
+      "end": "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437640",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:86694680"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437640",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:205ca6e21bdf803f257fff07f9caa4faebebf45567fb2bec92861ff6b9970749"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437640",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437640",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:1088627a7acdf6bd9fadd2d4534c6811e235374a0fcda39e2e56a482484d5bdf"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437640",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:c9179dc615143544d4779e6cd7e81bd721dffec3a8d64768cdf518407ac0017b"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437640",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:ee31be1d72eee79f5740d07bcd24398b6d2d3b11e8acc80c2074d122c1d48c6e"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884437640",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:fafafbabf69754c80c6123e44399c94248f38aed1311c963f72df92613dd0474"
+    }
+  ]
+}

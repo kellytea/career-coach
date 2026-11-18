@@ -1,0 +1,281 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:1282208b8ed828af1d947caed366659e48a12e8b2c15d1247bba40bfc9bfda21",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Oracle Java"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:61a5cf8c288ed53a9cb6da5398abf5058f13dc7b58719ff6ec406ab15b869861",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "REST Assured"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:8014734e0882cb9d5da64a6bad9cf9fecbcdb123bd7f2f7090354d9cd78d5ef1",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "GitLab"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:8e50545486c3a5943b97ef65f3cccbd871fca6a623eff37435d62599b0238753",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Appium"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:a9ef2ab23c678792ac52d5abdd56fa9c3b6ae811cbadfa775cf8f4161aed4761",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Python"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C#"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:c4f270d771fb5a69772a5d51f81856cfc397431bc3ba90489c82e0edc7c93bc3",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Atlassian JIRA"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:f36509d5534e2ed86c57a475502981977fe89e2ff24258881fab4c5eb9bb1869",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Tableau"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:10346547",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Qentelli"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3863610227",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Software Engineer in Test Automation"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:0da8773161657b02249d6ba8058f4742677090ba2f7730f161bbd23468accb38",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Software Engineer in Test Automation"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:0617ef99dc18d6a50ff9bcd0d2b2dcd424b4f469b55b2299e4115659d79be0d0",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Core Java"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:1d6919d3b96943c9a589aa5613eac1e5b2fd06708cedbb051b1fae839fff805f",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Visual Studio"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:6d6d19dce74356170aa198e7df926b7fc8192e871b2c03419dfaab07eb67234e",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Jenkins"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:6f6a12f10dc5a90cc7c255f1c664ebdd6df5ed9240a91d6f41fcb052d769b606",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Strong Problem-solving skills"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:7a325405ec5b4e81088d30d5c994397e0666efae5954b2c50381f786f2c1f386",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Karate automation framework"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:83ef9c0f570d2cdc2f363d5f6cd5ebdd2ea119fe0447c974bc7c2e52a4e4708b",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "SeeTest"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:d4d9cc7ed69223ca2c4da12a72213de09ac9fc82703610d00bbb51ed6dff4d4b",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "JBehave"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:e4289b68040bf6c206888101d10f08d42d5a6c973ebf6f0ef60400256c0a41d3",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Cucumber"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:f99d6bb0e2700ffefa301e4a06d53378b2b6884c8c7d67778f1da09c31077b7f",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Selenium WebDriver"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:0da8773161657b02249d6ba8058f4742677090ba2f7730f161bbd23468accb38"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:10346547"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:1282208b8ed828af1d947caed366659e48a12e8b2c15d1247bba40bfc9bfda21"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:61a5cf8c288ed53a9cb6da5398abf5058f13dc7b58719ff6ec406ab15b869861"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:8014734e0882cb9d5da64a6bad9cf9fecbcdb123bd7f2f7090354d9cd78d5ef1"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:8e50545486c3a5943b97ef65f3cccbd871fca6a623eff37435d62599b0238753"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:a9ef2ab23c678792ac52d5abdd56fa9c3b6ae811cbadfa775cf8f4161aed4761"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:c4f270d771fb5a69772a5d51f81856cfc397431bc3ba90489c82e0edc7c93bc3"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:f36509d5534e2ed86c57a475502981977fe89e2ff24258881fab4c5eb9bb1869"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:0617ef99dc18d6a50ff9bcd0d2b2dcd424b4f469b55b2299e4115659d79be0d0"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:1d6919d3b96943c9a589aa5613eac1e5b2fd06708cedbb051b1fae839fff805f"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:6d6d19dce74356170aa198e7df926b7fc8192e871b2c03419dfaab07eb67234e"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:6f6a12f10dc5a90cc7c255f1c664ebdd6df5ed9240a91d6f41fcb052d769b606"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:7a325405ec5b4e81088d30d5c994397e0666efae5954b2c50381f786f2c1f386"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:83ef9c0f570d2cdc2f363d5f6cd5ebdd2ea119fe0447c974bc7c2e52a4e4708b"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:d4d9cc7ed69223ca2c4da12a72213de09ac9fc82703610d00bbb51ed6dff4d4b"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:e4289b68040bf6c206888101d10f08d42d5a6c973ebf6f0ef60400256c0a41d3"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3863610227",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:f99d6bb0e2700ffefa301e4a06d53378b2b6884c8c7d67778f1da09c31077b7f"
+    }
+  ]
+}

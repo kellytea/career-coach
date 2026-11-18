@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Software Developers"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:890145",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "VDart"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884431643",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Software Design Engineer"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884431643",
+      "type": "forRole",
+      "end": "urn:career-coach:concept:occupation:49d1c1df54f21792097a91300ec9de3bb0893f713e808cc90c5edf373117c890"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884431643",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:890145"
+    }
+  ]
+}

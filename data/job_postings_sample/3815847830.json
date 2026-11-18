@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:degree-level:v1:master",
+      "labels": [
+        "DegreeLevel"
+      ],
+      "properties": {
+        "label": "master",
+        "rank": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:1412",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Northrop Grumman"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3815847830",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Staff Software Engineer (AHT)"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:8768a50d52c7b449dba667641d8e8a2727d14b82d17576293015c6c2d647a7c7",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Staff Software Engineer (AHT)"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3815847830",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:8768a50d52c7b449dba667641d8e8a2727d14b82d17576293015c6c2d647a7c7"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3815847830",
+      "type": "minDegreeLevel",
+      "end": "urn:career-coach:degree-level:v1:master"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3815847830",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:1412"
+    }
+  ]
+}

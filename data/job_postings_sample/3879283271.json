@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:bbc6f6c2ccef18bea07350112e651014475b25dac8f76c51ec99a1eed42cdf93",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Programming"
+      }
+    },
+    {
+      "id": "urn:career-coach:degree-level:v1:bachelor",
+      "labels": [
+        "DegreeLevel"
+      ],
+      "properties": {
+        "label": "bachelor",
+        "rank": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:26603884",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "iBrain Technologies, Inc"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3879283271",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Sr Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:8cf00b675b41ee5814a366af9d54754e4f93ca9cb1afcb063eb80a90f2798618",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Sr Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:0a3d5e60e839273d62f474b65d857e96092c5e35c55c365d8c5690c079fe4f74",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "object-oriented programming"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:99bfff4ab3c6b54d0a86a89120fdab09f08bea39673c27f6249825d98ee5ccb2",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "OOP"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:b8382446ca976a82e66a2f1dda90c70889834d937ade6bca467008e70b2a43b6",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Excellent problem-solving and analytical skills"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3879283271",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:8cf00b675b41ee5814a366af9d54754e4f93ca9cb1afcb063eb80a90f2798618"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3879283271",
+      "type": "minDegreeLevel",
+      "end": "urn:career-coach:degree-level:v1:bachelor"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3879283271",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:26603884"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3879283271",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:bbc6f6c2ccef18bea07350112e651014475b25dac8f76c51ec99a1eed42cdf93"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3879283271",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:0a3d5e60e839273d62f474b65d857e96092c5e35c55c365d8c5690c079fe4f74"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3879283271",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:99bfff4ab3c6b54d0a86a89120fdab09f08bea39673c27f6249825d98ee5ccb2"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3879283271",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:b8382446ca976a82e66a2f1dda90c70889834d937ade6bca467008e70b2a43b6"
+    }
+  ]
+}

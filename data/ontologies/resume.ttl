@@ -9,6 +9,7 @@
 :Company       a owl:Class ; rdfs:subClassOf :Organization .
 :University    a owl:Class ; rdfs:subClassOf :Organization .
 :Employment    a owl:Class .          # models a job as its own node
+:Education     a owl:Class .
 :Skill         a owl:Class .
 :DataInfrastructure a owl:Class ; rdfs:subClassOf :Skill .
 :StreamingPlatform  a owl:Class ; rdfs:subClassOf :DataInfrastructure .
@@ -18,6 +19,8 @@
 
 # --- Object properties with domain and range ---
 :hasEmployment a owl:ObjectProperty ; rdfs:domain :Person ;     rdfs:range :Employment .
+:hasEducation  a owl:ObjectProperty ; rdfs:domain :Person ; rdfs:range :Education .
+:institution   a owl:ObjectProperty ; rdfs:domain :Education ; rdfs:range :University .
 :employer      a owl:ObjectProperty ; rdfs:domain :Employment ; rdfs:range :Company .
 :hasSkill      a owl:ObjectProperty ; rdfs:domain :Person ;     rdfs:range :Skill .
 :usesTechnology a owl:ObjectProperty ; rdfs:domain :Company ;   rdfs:range :Skill .
@@ -26,3 +29,8 @@
 :name     a owl:DatatypeProperty ; rdfs:range xsd:string .
 :jobTitle a owl:DatatypeProperty ; rdfs:domain :Employment ; rdfs:range xsd:string .
 :startDate a owl:DatatypeProperty ; rdfs:domain :Employment ; rdfs:range xsd:gYear .
+:endDate a owl:DatatypeProperty ; rdfs:domain :Employment ; rdfs:range xsd:gYear .
+:degree a owl:DatatypeProperty ; rdfs:domain :Education ; rdfs:range xsd:string .
+:fieldOfStudy a owl:DatatypeProperty ; rdfs:domain :Education ; rdfs:range xsd:string .
+:educationStartYear a owl:DatatypeProperty ; rdfs:domain :Education ; rdfs:range xsd:gYear .
+:educationEndYear a owl:DatatypeProperty ; rdfs:domain :Education ; rdfs:range xsd:gYear .

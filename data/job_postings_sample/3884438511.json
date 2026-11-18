@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:linkedin:company:729369",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "MoTek Technologies"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884438511",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Manager, Software Engineering - SaaS"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:6df014e403904329e0e1142494094aad3e4b09ac487deb7c45c7a0677fa1c870",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Manager, Software Engineering - SaaS"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:301393a8e4e6606c6f1819a8a7c7b37582b1145568713e0be2e7d70e49a3d4d5",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "computer science fundamentals"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884438511",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:6df014e403904329e0e1142494094aad3e4b09ac487deb7c45c7a0677fa1c870"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884438511",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:729369"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884438511",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:301393a8e4e6606c6f1819a8a7c7b37582b1145568713e0be2e7d70e49a3d4d5"
+    }
+  ]
+}

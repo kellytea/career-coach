@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "TypeScript"
+      }
+    },
+    {
+      "id": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "JavaScript"
+      }
+    },
+    {
+      "id": "urn:career-coach:degree-level:v1:bachelor",
+      "labels": [
+        "DegreeLevel"
+      ],
+      "properties": {
+        "label": "bachelor",
+        "rank": [
+          2
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:19181972",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "aKUBE"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884436924",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Senior Software Engineer",
+        "minExperience": [
+          5.0
+        ]
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:013f129b5c6e7bd9ec2e1430f96c0e35a5645145b52d2115a015b04c7fc2f141",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Senior Software Engineer"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:60964b7f6defd468d764c7f3339a3ba3e287847a369426dc77ce373b9d1f6bb5",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "ES6"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884436924",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:013f129b5c6e7bd9ec2e1430f96c0e35a5645145b52d2115a015b04c7fc2f141"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884436924",
+      "type": "minDegreeLevel",
+      "end": "urn:career-coach:degree-level:v1:bachelor"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884436924",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:19181972"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884436924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:44c75cd5cc1ac5a6122c3d0a388c84b7a4cb759af2fcfd8dcbafabf1e0ee1919"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884436924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:7d0e72f75fa2702d76861f4d1ec406f57abc16f51a6ce4fd28ae4a9cc360fdb8"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884436924",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:60964b7f6defd468d764c7f3339a3ba3e287847a369426dc77ce373b9d1f6bb5"
+    }
+  ]
+}

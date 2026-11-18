@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "C#"
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:company:461358",
+      "labels": [
+        "Organization"
+      ],
+      "properties": {
+        "label": "Ask IT Consulting Inc."
+      }
+    },
+    {
+      "id": "urn:career-coach:linkedin:job:3884430666",
+      "labels": [
+        "JobPosting"
+      ],
+      "properties": {
+        "label": "Software Engineer with Vue JS."
+      }
+    },
+    {
+      "id": "urn:career-coach:local-role:84cde61d9f80bea83f10f50039e5fa7ae8f0d7a1ac2d931837ddb07075535d1b",
+      "labels": [
+        "Role"
+      ],
+      "properties": {
+        "label": "Software Engineer with Vue JS."
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:ade5be0e8d9b8379c4a5d42e25afd940c84888cb84ffd16e227ef29f8abdcf9b",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Webpackusing"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:b371a23589bfd8f36d27049533061904c8a1e374b8211c5de804d0d8b0214718",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "VueJS"
+      }
+    },
+    {
+      "id": "urn:career-coach:local-skill:be7cb12aec368120ae061a4ef8a435b715b2bfb11c978137a15dca47362f7492",
+      "labels": [
+        "Skill"
+      ],
+      "properties": {
+        "label": "Vite"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "start": "urn:career-coach:linkedin:job:3884430666",
+      "type": "forRole",
+      "end": "urn:career-coach:local-role:84cde61d9f80bea83f10f50039e5fa7ae8f0d7a1ac2d931837ddb07075535d1b"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884430666",
+      "type": "postedBy",
+      "end": "urn:career-coach:linkedin:company:461358"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884430666",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:concept:skill:b10d0080b38f248ea2f0e324494cbbadfa8a3a8813e2e12875b28e43e4e254b0"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884430666",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:ade5be0e8d9b8379c4a5d42e25afd940c84888cb84ffd16e227ef29f8abdcf9b"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884430666",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:b371a23589bfd8f36d27049533061904c8a1e374b8211c5de804d0d8b0214718"
+    },
+    {
+      "start": "urn:career-coach:linkedin:job:3884430666",
+      "type": "requiresSkill",
+      "end": "urn:career-coach:local-skill:be7cb12aec368120ae061a4ef8a435b715b2bfb11c978137a15dca47362f7492"
+    }
+  ]
+}
