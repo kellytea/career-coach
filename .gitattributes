@@ -1,0 +1,5 @@
+# Generated lookups are hashed with LF endings by import_onet.py.
+/data/taxonomy/onet/**/*.jsonl text eol=lf
+
+# Preserve the exact upstream bytes of downloaded source tables.
+/data/taxonomy/onet/**/raw/*.csv -text

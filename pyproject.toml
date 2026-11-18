@@ -1,7 +1,7 @@
 [project]
 name = "career-coach"
 version = "0.1.0"
-description = "Add your description here"
+description = "Evidence-preserving resume and job extraction"
 readme = "README.md"
 authors = [
     { name = "kellytea", email = "ktran49@asu.edu" }
